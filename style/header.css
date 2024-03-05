@@ -1,0 +1,137 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(207, 193, 193);
+    z-index: 100;
+}
+.hamburger-menu , .yt-logo{
+    height: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.yt-logo{
+    height: 20px;
+    /* margin-bottom: 3px; */
+    margin-left: 20px;
+}
+.searchbar{
+    flex: 1;
+    width: 0;
+    border: 1px solid rgb(192, 192, 192);
+    height: 37px;
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 1px rgb(0, 0, 0, .05);
+    padding-left: 10px;
+    font-size: 15px;
+}
+.searchbar::placeholder{
+    font-family: robot, arial;
+    font-size: 15px;
+}
+.search-button{
+    height: 41px;
+    width: 60px;
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: -2px;
+    background-color: rgb(241, 237, 237);
+    position: relative;
+    justify-content: center;
+    justify-content: center;
+}
+.tooltip{
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    opacity: .2;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+}
+.search-button .tooltip{
+    opacity: 0;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+.search-button:hover{
+    background-color: rgb(212, 209, 209);
+    transition: background-color .3s;
+}
+
+.searchimg{
+    height: 24px;   
+    margin-top: 4px; 
+}
+.searchvoice{
+    height: 24px;
+    margin-top: 3px;
+}
+.search-mic:hover{
+    background-color: rgb(212, 209, 209);
+    transition: background-color .3s;
+}
+.search-mic{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+.upload-icon{
+    height: 30px;
+}
+.apps-ops{
+    height: 28px;
+}
+.noti{
+    height: 27px;
+}
+.profile{
+    height: 37px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.left-class{
+    display: flex;
+    align-items: center;
+}
+.middle-class{
+    height: 60px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+.right-class{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+    flex-shrink: 0;
+}
+/* .count{
+    height: 4px;
+    background-color: red;
+    width: 4px;
+    position: absolute;
+    right: 400px;
+} */
+
+/* sidebar starts  */
+
+/* sidebar ends */
+/* video grid starts */
